@@ -1,0 +1,38 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: linear-gradient(orangered,blue);
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.containers
+{
+    border: 1px solid black;
+    padding: 20px 40px;
+    box-shadow: 1px 2px 4px orangered;
+}
+h2
+{
+    color: white;
+    font-weight: bold;
+}
+@media(min-width:500px)
+{
+    .container
+    {
+    flex-direction: row;
+    column-gap: 10px;
+    }
+}
